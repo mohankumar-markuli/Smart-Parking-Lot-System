@@ -15,8 +15,8 @@
 
 #### 3. Detail Design of the system
 
-- Identify the attributes of the entitis
-- Idenitfy the behaviours of the entitis
+- Identify the attributes of the entities
+- Idenitfy the behaviours of the entities
 - Identify the relationship between entities
 
 #### 4. Diagrams
