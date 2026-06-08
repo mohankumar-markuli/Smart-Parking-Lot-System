@@ -2,7 +2,7 @@
 
 ### 1. ParkingLot
 
-    Represents the entire parking facility. Maintains parking floors, overall availability, and parking lot status.
+    Represents the entire parking facility. Maintains parking floors, overall availability, parking lot status.
 
 ### 2. ParkingFloor
 
@@ -26,9 +26,13 @@
 
 ### 7. EntryGate
 
+    Not Required - can be done in ParkingLot Entity
+
     Represents the entry point of the parking lot. Responsible for initiating vehicle check-in.
 
 ### 8. ExitGate
+
+    Not Required - can be done in Payment Entity
 
     Represents the exit point of the parking lot. Responsible for initiating vehicle check-out.
 
