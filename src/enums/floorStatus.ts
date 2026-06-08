@@ -1,0 +1,4 @@
+export enum FloorStatus {
+  ACTIVE = "ACTIVE",
+  UNDER_MAINTENANCE = "UNDER_MAINTENANCE"
+}
