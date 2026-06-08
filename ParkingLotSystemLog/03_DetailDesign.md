@@ -156,6 +156,33 @@
 
 - USED BY ParkingLot
 
+## Relationship Summary
+
+```
+
+ParkingLot
+    ->  HAS-A ParkingFloor (Strong)
+    ->  HAS-A DisplayPanel (Weak)
+    ->  USES ParkingAllocationStrategy
+    ->  USES FeeCalculationStrategy
+    ->  CREATES Ticket
+    ->  CREATES Payment
+
+ParkingFloor
+    ->  HAS-A ParkingSpot (Strong)
+
+ParkingSpot
+    ->  HAS-A Vehicle (Weak)
+
+Ticket
+    ->  HAS-A Vehicle
+    ->  HAS-A ParkingSpot
+
+Payment
+    ->  ASSOCIATED WITH Ticket
+
+```
+
 ## System Flow
 
 ```
